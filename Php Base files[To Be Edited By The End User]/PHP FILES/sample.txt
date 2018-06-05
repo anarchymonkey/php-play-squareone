@@ -1,0 +1,53 @@
+<style>
+<?php
+ include 'ordernow.css';
+ ?>
+ </style>
+
+ <head>
+<body background="food.jpg">
+
+<div class="chole">
+  <img src="cholebature.jpg"></img>
+</div>
+<div class="zero">
+  <input type="text" id="number" value="0">
+</div>
+  <button name="add" id="add" class="add" onclick="addprice()" value="add">Add</button>
+  <button name="+" class="increment" onclick="increment()" value="increment">+</button>
+  <button name="-" class="decrement" onclick="decrement()">-</button>
+  <script lang="javascript">
+
+function increment()
+{
+  var i=parseInt(document.getElementById('number').value,10);
+  i=isNaN(i) ? 0 : i;
+  i++;
+  document.getElementById('number').value=i;
+  return i;
+}
+function decrement()
+{
+  var i=parseInt(document.getElementById('number').value,10);
+        i=isNaN(i) ? 0 : i;
+                if(i<=0)
+                        {
+                            i=0;
+                        }
+                    else {
+                            i--;
+                          }
+
+  document.getElementById('number').value=i;
+}
+
+function addprice()
+{var additems=0;
+  additems=parseInt(document.getElementById('add').value);
+additems=(increment()-1)*100;
+document.getElementById('add').value=alert("the value of all the items added is"+additems);
+}
+
+  </script>
+
+</body>

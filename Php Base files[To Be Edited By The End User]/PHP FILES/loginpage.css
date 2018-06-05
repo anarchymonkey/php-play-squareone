@@ -1,0 +1,136 @@
+body
+{
+
+background-size: cover;
+-o-background-size:cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+object-fit: cover;
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+
+.loginpage
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width:350px;
+height: 520px;
+box-sizing : border-box;
+background: rgba(0,0,0,.5);
+padding:  75px 40px;
+}
+.userlogin
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top : calc(-100px/2);
+  left : calc(50% - 55px);
+  overflow: hidden;
+  position: absolute;
+
+}
+
+h2
+{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  color:white;
+  opacity: 0.7;
+}
+
+h4
+{
+  color:white;
+  font-size: 11px;
+  font-family: fantasy;
+  margin-left: 30px;
+}
+#signup
+{
+  color: orange;
+}
+.loginpage p
+{
+  margin: 0;
+  padding: 0;
+  font-weight:bold;
+  color: #fff;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.loginpage input
+{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+
+}
+
+.loginpage input[type="text"] ,
+.loginpage input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+}
+::placeholder
+{
+  color: rgba(255,255,255,.5);
+  opacity: 0.9 ;
+}
+.loginpage input[type="submit"]
+{
+border:none;
+outline:none;
+height: 30px;
+font-size: 16px;
+background: red;
+border-radius: 0;
+font-size: 20px;
+font-family: sans-serif;
+color: black;
+}
+
+#forgotpass
+{
+  color:white;
+}
+
+.one p
+{
+
+
+border-right: 2px;
+white-space: nowrap;
+animation:animate 3s steps(100,end) ;
+border-right:.15em solid orange;
+margin: 0 auto;
+letter-spacing: .15em;
+overflow: hidden;
+color:white;
+font-size:40px;
+}
+
+@keyframes animate {
+  0%
+  {
+    width:0ch;
+    color:lime;
+  }
+  100%
+  {
+    width:60ch;
+    color:white;
+  }
+
+}

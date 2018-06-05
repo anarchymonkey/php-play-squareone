@@ -1,0 +1,94 @@
+body
+{
+
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-size:cover;
+
+
+}
+
+.signup-page
+{
+  background-color: black;
+  width: 420px;
+  height: 500px;
+ position: absolute;
+ box-sizing: border-box;
+ margin: auto;
+ padding:  20px 40px;
+ top:50%;
+ left:25%;
+ transform: translate(50%,-50%);
+ background: rgba(0,0,0,.5);
+ font-size:inherit;
+}
+
+.signup-page h2
+{
+  color: white;
+  font-family: sans-serif;
+  text-decoration: underline lime;
+  padding: 0 0 5px;
+  margin-top: 10px;
+  margin-left: 25%;
+  font-weight: bolder;
+  text-align:
+
+}
+
+.signup-page p
+{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  color: #fff;
+  opacity: 0.9;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.signup-page input
+{
+  width: 100%;
+  background: transparent;
+  color:white;
+}
+
+.signup-page input[type="username"],
+.signup-page input[type="Password"],
+.signup-page input[type="password2"],
+.signup-page input[type="email"],
+.signup-page input[type="Branch"]
+{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid lime;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  background: transparent;
+  color:white;
+  margin-top:10px;
+  overflow: hidden;
+
+}
+
+::placeholder
+{
+font-size: 15px;
+color:white;
+}
+
+.signup-page input[type="submit"]
+{
+  background-color: lime;
+  border: none;
+  outline: none;
+  height: 30px;
+  font-size: 25px;
+  margin-top: 20px;
+  color:black;
+  opacity: 0.7;
+}

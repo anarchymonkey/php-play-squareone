@@ -1,0 +1,50 @@
+body
+{
+
+}
+
+.chole
+{
+}
+.chole img
+{
+width: 300px;
+height:200px;
+border-radius: 50%;
+}
+.add
+{
+width:100px;
+height:40px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 5px;
+}
+.increment
+{
+float:left;
+height: 40px;
+width:40px;
+margin-left: 30px;
+margin-top:5px;
+padding:12px;
+
+}
+.decrement
+{
+  height: 40px;
+  width:40px;
+  padding:12px;
+
+}
+.zero input
+{
+  position: inherit;
+  width:170px;
+  height:40px;
+  align-self: center;
+  margin-left:4em;
+  padding-left: 70px;
+  background: transparent;
+  font-size: 20px;
+}
